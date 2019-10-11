@@ -21,3 +21,9 @@
 	width: 40%;
 	max-width: 250px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+}

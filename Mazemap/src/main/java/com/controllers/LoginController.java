@@ -11,7 +11,6 @@ public class LoginController
     @RequestMapping(value="/login",method=RequestMethod.POST)
     public String login(@RequestParam(value="studnum", required=false, defaultValue="") String name) 
     {
-    	
         return "Grats you've been logged in!\t" + name;
     }
 }

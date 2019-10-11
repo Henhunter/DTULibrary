@@ -1367,6 +1367,7 @@
 		.wrapper > .inner {
 			margin: 0 auto;
 			width: 60em;
+			height: 1500000000vh;
 		}
 
 		@media screen and (max-width: 1280px) {
