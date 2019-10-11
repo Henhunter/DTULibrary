@@ -8,10 +8,11 @@
     <title>DTU CampusNet</title>
 </head>
 <body>
+	<section>
 	<div class="page-wrap">
 
 		<!-- Nav -->
-		<nav id="nav">
+		<nav id="nav" class="sticky">
 			<ul>
 				<li><a href="index"><span class="icon fa-home"></span></a></li>
 				<li><a href=""><span class="icon fas fa-map"></span></a></li>
@@ -29,22 +30,31 @@
 					</div>
 			</section>
 
-		<div class="column">
-			<h3>Sign in with your DTU Inside account</h3>
-			<form action="login" method="post">
-				<div class="field half first">
-					<label for="studnum">Student number</label>
-					<input name="studnum" id="studnum" type="text" placeholder="Name">
-				</div>
-				<div class="field half">
-					<label for="password">Password</label>
-					<input name="password" id="password" type="password" placeholder="Password">
-				</div>
-				<ul class="actions">
-					<li><input value="Log in" class="button" type="submit"></li>
-				</ul>
-			</form>
-		</div>
+			<div class="column">
+				<h3>Sign in with your DTU Inside account</h3>
+				<form action="login" method="post">
+					<div class="field half first">
+						<label for="studnum">Student number</label>
+						<input name="studnum" id="studnum" type="text" placeholder="Name">
+					</div>
+					<div class="field half">
+						<label for="password">Password</label>
+						<input name="password" id="password" type="password" placeholder="Password">
+					</div>
+					<ul class="actions">
+						<li><input value="Log in" class="button" type="submit"></li>
+					</ul>
+				</form>
+			</div>
+
+			<!-- Contact -->
+			<section id="contact">
+				<!-- Social -->
+					<div class="column">
+						
+					</div>
+			</section>	
+
 
 			<!-- Footer -->
 			<footer id="footer">
